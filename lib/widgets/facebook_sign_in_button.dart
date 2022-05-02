@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class FacebookSignInButton extends StatefulWidget {
   const FacebookSignInButton({Key? key}) : super(key: key);
@@ -30,7 +31,10 @@ class _FacebookSignInButtonState extends State<FacebookSignInButton> {
                     ),
                   ),
                 ),
-                onPressed: () async {},
+                onPressed: () async {
+                  Get.snackbar('Coming Soon', 'This feature is coming soon',
+                      backgroundColor: Colors.white, colorText: Colors.black);
+                },
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                   child: Row(

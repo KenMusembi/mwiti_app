@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class AppleSignInButton extends StatefulWidget {
   @override
@@ -27,7 +28,10 @@ class _AppleSignInButtonState extends State<AppleSignInButton> {
                     ),
                   ),
                 ),
-                onPressed: () async {},
+                onPressed: () async {
+                  Get.snackbar('Coming Soon', 'This feature is coming soon',
+                      backgroundColor: Colors.white, colorText: Colors.black);
+                },
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                   child: Row(
