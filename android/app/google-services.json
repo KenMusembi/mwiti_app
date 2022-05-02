@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "659368096195",
+    "project_id": "mwiti-mobile",
+    "storage_bucket": "mwiti-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659368096195:android:9b779cda19ac9dac824d76",
+        "android_client_info": {
+          "package_name": "com.example.mwiti_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659368096195-iojvegr48tgvnsgomvdau7le5t0qc4lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mwiti_app",
+            "certificate_hash": "2ac49bdb9f32360fe38714fe43118e8bf7f70939"
+          }
+        },
+        {
+          "client_id": "659368096195-c01lkqug1ppho172r242j80bhu5olcsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ-wKtY19dwFyHfsqlKFvkfayJTXxcSD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659368096195-c01lkqug1ppho172r242j80bhu5olcsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
